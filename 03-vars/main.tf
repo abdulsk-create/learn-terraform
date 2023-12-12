@@ -33,3 +33,8 @@ variable "fruit_stock_with_price" {
     }
   }
 }
+
+# Access a List Variable
+output "fruits_first" {
+  value = var.fruits[0]
+}
